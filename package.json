@@ -1,0 +1,27 @@
+{
+  "name": "todo-web",
+  "version": "1.0.0",
+  "main": "browser.js",
+  "scripts": {
+    "build-dev-js": "./node_modules/webpack/bin/webpack.js",
+    "build-prod-js": "./node_modules/webpack/bin/webpack.js --optimize-minimize --optimize-dedupe"
+  },
+  "author": "Dylan McDiarmid <dylan@roostery.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "todo-api": "git+ssh://git@github.com/rjones222/todo-api.git",
+    "modern-js-module": "git+ssh://git@github.com/rjones222/modern-js-module.git"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjones222/todo-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rjones222/todo-web/issues"
+  },
+  "homepage": "https://github.com/rjones222/todo-web#readme",
+  "description": ""
+}
